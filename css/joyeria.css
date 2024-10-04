@@ -590,12 +590,13 @@ header.scrolled {
     }
     .process_info{
         background-color: 0;
-        height: 550px;
+        height: max-content;
         width: 100%;
+        margin-bottom: 10vh;
     }    
     .section_us {
         background-color: 0;
-        height: 550px;
+        height: max-content;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -605,7 +606,7 @@ header.scrolled {
     }
     .section_us_content {
         background-color: 0;
-        height: 95%;
+        height: max-content;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -615,7 +616,7 @@ header.scrolled {
     .section_us_inf {
         order: 2;
         background-color: 0;
-        height: 300px;
+        height: max-content;
         width: 90%;
         display: flex;
         flex-wrap: wrap;
@@ -627,6 +628,28 @@ header.scrolled {
         background-color: 0;
         height: 200px;
         width: 90%;
+    }
+    .section_us_img2 {
+        order: 1;
+        background-color: 0;
+        height: 200px;
+        width: 90%;
+    }
+    .section_us_img3 {
+        order: 1;
+        background-color: 0;
+        height: 200px;
+        width: 90%;
+    }
+    .section_us_img4 {
+        order: 1;
+        background-color: 0;
+        height: 200px;
+        width: 90%;
+    }
+    .section_us_p{
+        min-height: max-content;
+        padding-bottom: 25px;
     }
 
     
